@@ -76,7 +76,15 @@ This repository contains a **comprehensive comparative study** of two fundamenta
 - **Content**: Cardiac chambers (4-chamber, 2-chamber views)
 - **Labels**: Zero-shot segmentation with SAM2
 
+### **Data Visualization**
+
+![Data Visualization](0X18BA5512BE5D6FFA.gif)
+
+*Interactive visualization showing the comparative analysis of segmentation results across different datasets and resolutions.*
+
+
 ---
+
 
 ## Quick Start
 
@@ -206,13 +214,6 @@ Rscript scripts/beat_by_beat_analysis.R
 - Ejection fraction prediction accuracy
 - Clinical data distribution analysis
 
-### **Data Visualization**
-
-![Data Visualization](0X18BA5512BE5D6FFA.gif)
-
-*Interactive visualization showing the comparative analysis of segmentation results across different datasets and resolutions.*
-
----
 
 ### **SAM2 Performance on SurgiS4K**
 
