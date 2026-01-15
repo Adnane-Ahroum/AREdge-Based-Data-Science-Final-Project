@@ -1,15 +1,15 @@
-# Title
+# README Content from commit 2dee00baaab74a168f40d522dbf8563d0fb5299f.
 
-[Full original content of the README as of the previous commit]
+[...existing content...]
 
-... 
+# Results & Analysis
 
-## Results & Analysis
+[...previous results and analysis content...]
 
-...
+### **Data Visualization**
 
 ![Data Visualization](0X18BA5512BE5D6FFA.gif)
 
-*This GIF shows interactive visualization of comparative analysis of segmentation results across different datasets and resolutions.*
+*Interactive visualization showing the comparative analysis of segmentation results across different datasets and resolutions.*
 
-[Include remainder of the README after this point]
+[...rest of the existing content...]
