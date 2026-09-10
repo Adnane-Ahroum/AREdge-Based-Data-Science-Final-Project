@@ -12,6 +12,8 @@ jobs:
         with:
           lfs: true
       - uses: huggingface/hub-sync@v0.1.0
+        env:
+          HF_HUB_DISABLE_XET: "1"
         with:
           github_repo_id: ${{ github.repository }}
           huggingface_repo_id: PyRoS42/EchoNet-Dynamic-vs-SAM2-AR-Edge-Segmentation
