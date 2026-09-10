@@ -13,11 +13,14 @@ jobs:
           lfs: true
 
       - name: Ensure Hugging Face repo exists
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           pip install -q huggingface_hub
           python3 -c "
+          import os
           from huggingface_hub import HfApi
-          api = HfApi(token='${{ secrets.HF_TOKEN }}')
+          api = HfApi(token=os.environ['HF_TOKEN'])
           api.create_repo(repo_id='PyRoS42/EchoNet-Dynamic-vs-SAM2-AR-Edge-Segmentation', repo_type='model', exist_ok=True)
           "
 
